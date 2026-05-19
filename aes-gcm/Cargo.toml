@@ -19,8 +19,8 @@ rust-version = "1.56"
 [dependencies]
 #aead = { version = "0.5", default-features = false }
 aead = { path="../../traits-aead/aead", default-features = false }
-aes = { version = "0.8", optional = true }
-#aes = { path="../../block-ciphers/aes", optional = true }
+#aes = { version = "0.8", optional = true }
+aes = { path="../../block-ciphers/aes", optional = true }
 cipher = "0.4"
 #cipher = {path="../../traits-cipher/cipher"}
 ctr = "0.9"
